@@ -1,0 +1,39 @@
+*{ 
+    margin: 0;
+ } 
+body{ background-color: black; 
+    justify-items: center; 
+} 
+.card{ width: 600px; 
+    height: 700px;
+     background-color: white;
+     } 
+.card-header{
+     display: flex; 
+     flex-direction: row;
+      padding: 15px; 
+      justify-content: space-between;
+     } 
+.card-nav{
+     display: flex; 
+    } 
+.card-title{
+     padding-left: 10px; 
+    } 
+img{ 
+    width: 600px; 
+    height: 350px;
+ } 
+.card-icons{
+     padding: 15px; 
+     justify-content: space-between;
+     display: flex ;
+    }
+    .card-likes{
+     padding: 15px; 
+     font-family: Arial, Helvetica, sans-serif;
+    }
+    .card-footer{
+     padding: 15px; 
+     font-family: Arial, Helvetica, sans-serif;
+    }
